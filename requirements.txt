@@ -36,7 +36,6 @@ scikit-image
 scikit-learn
 scipy
 six
-sklearn
 tensorboard
 torch
 torchvision
