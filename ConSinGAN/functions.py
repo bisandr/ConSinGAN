@@ -13,7 +13,7 @@ import datetime
 import dateutil.tz
 import copy
 from albumentations import HueSaturationValue, GaussNoise, OneOf,\
-    Compose, MultiplicativeNoise, ToSepia, ChannelDropout, ChannelShuffle, Cutout, InvertImg
+    Compose, MultiplicativeNoise, ToSepia, ChannelDropout, ChannelShuffle, CoarseDropout, InvertImg
 
 from ConSinGAN.imresize import imresize, imresize_in, imresize_to_shape
 

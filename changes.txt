@@ -1,3 +1,4 @@
 Changes:
 sklearn removed from requirements
 in functions.py IAAAdditiveGaussianNoise is removed.
+Replace Cutout with CoarseDropout
