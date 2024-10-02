@@ -1,5 +1,5 @@
 absl-py
-albumentations
+albumentations==1.0.0
 cachetools
 certifi
 chardet
