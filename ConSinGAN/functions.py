@@ -144,7 +144,7 @@ def np2torch(x, opt):
         x = x[:,:,:,None]
         x = x.transpose((3, 2, 0, 1))/255
     else:
-        x = color.rgb2gray(x)
+        #x = color.rgb2gray(x)
         x = x[:,:,None,None]
         x = x.transpose(3, 2, 0, 1)
     x = torch.from_numpy(x)
