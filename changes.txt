@@ -1,8 +1,9 @@
 Changes:
-tequirements.txt:
+requirements.txt:
 - versions removed
 - sklearn removed from requirements
 - albumentations==1.0.0
 
 functions.py:
 line 288: Replace selem with footprint
+line 147: #
